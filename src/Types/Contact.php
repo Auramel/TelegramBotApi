@@ -1,15 +1,15 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Class Contact
  * This object represents a phone contact.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class Contact extends BaseType implements TypeInterface
 {

@@ -6,16 +6,16 @@
  * Time: 13:55
  */
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Class Venue
  * This object represents a venue
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class Venue extends BaseType implements TypeInterface
 {

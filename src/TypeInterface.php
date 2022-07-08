@@ -1,6 +1,6 @@
 <?php
 
-namespace TelegramBot\Api;
+namespace Auramel\TelegramBotApi;
 
 interface TypeInterface
 {

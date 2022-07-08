@@ -5,15 +5,15 @@
  * Time: 19:43
  */
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Contains information about the current status of a webhook.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class WebhookInfo extends BaseType implements TypeInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace TelegramBot\Api\Collection;
+namespace Auramel\TelegramBotApi\Collection;
 
 interface CollectionItemInterface
 {

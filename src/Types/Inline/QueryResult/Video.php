@@ -1,15 +1,15 @@
 <?php
 
-namespace TelegramBot\Api\Types\Inline\QueryResult;
+namespace Auramel\TelegramBotApi\Types\Inline\QueryResult;
 
-use TelegramBot\Api\Types\Inline\InlineKeyboardMarkup;
-use TelegramBot\Api\Types\Inline\InputMessageContent;
+use Auramel\TelegramBotApi\Types\Inline\InlineKeyboardMarkup;
+use Auramel\TelegramBotApi\Types\Inline\InputMessageContent;
 
 /**
  * Class InlineQueryResultVideo
  * Represents link to a page containing an embedded video player or a video file.
  *
- * @package TelegramBot\Api\Types\Inline
+ * @package Auramel\TelegramBotApi\Types\Inline
  */
 class Video extends AbstractInlineQueryResult
 {

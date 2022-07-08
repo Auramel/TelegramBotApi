@@ -1,9 +1,9 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * This object represents a parameter of the inline keyboard button used to automatically authorize a user.

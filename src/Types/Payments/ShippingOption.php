@@ -1,14 +1,14 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments;
+namespace Auramel\TelegramBotApi\Types\Payments;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class ShippingOption
  * This object represents one shipping option.
  *
- * @package TelegramBot\Api\Types\Payments
+ * @package Auramel\TelegramBotApi\Types\Payments
  */
 class ShippingOption extends BaseType
 {

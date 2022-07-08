@@ -1,15 +1,15 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments\Query;
+namespace Auramel\TelegramBotApi\Types\Payments\Query;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Payments\ArrayOfLabeledPrice;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Payments\ArrayOfLabeledPrice;
 
 /**
  * Class AnswerPreCheckoutQuery
  * Use this method to respond to such pre-checkout queries.
  *
- * @package TelegramBot\Api\Types\Payments\Query
+ * @package Auramel\TelegramBotApi\Types\Payments\Query
  */
 class AnswerPreCheckoutQuery extends BaseType
 {

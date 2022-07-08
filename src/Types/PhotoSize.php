@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\InvalidArgumentException;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\InvalidArgumentException;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Class PhotoSize
  * This object represents one size of a photo or a file / sticker thumbnail.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class PhotoSize extends BaseType implements TypeInterface
 {

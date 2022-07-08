@@ -6,18 +6,18 @@
  * Time: 14:41
  */
 
-namespace TelegramBot\Api\Types\Inline\InputMessageContent;
+namespace Auramel\TelegramBotApi\Types\Inline\InputMessageContent;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\TypeInterface;
-use TelegramBot\Api\Types\Inline\InputMessageContent;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\TypeInterface;
+use Auramel\TelegramBotApi\Types\Inline\InputMessageContent;
 
 /**
  * Class Text
  * @see https://core.telegram.org/bots/api#inputtextmessagecontent
  * Represents the content of a text message to be sent as the result of an inline query.
  *
- * @package TelegramBot\Api\Types\Inline\InputMessageContent
+ * @package Auramel\TelegramBotApi\Types\Inline\InputMessageContent
  */
 class Text extends InputMessageContent implements TypeInterface
 {

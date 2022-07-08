@@ -1,12 +1,12 @@
 <?php
 
-namespace TelegramBot\Api;
+namespace Auramel\TelegramBotApi;
 
 /**
  * Class Exception
  *
  * @codeCoverageIgnore
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 class Exception extends \Exception
 {

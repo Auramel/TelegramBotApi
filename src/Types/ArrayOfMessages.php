@@ -1,6 +1,6 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
 abstract class ArrayOfMessages
 {

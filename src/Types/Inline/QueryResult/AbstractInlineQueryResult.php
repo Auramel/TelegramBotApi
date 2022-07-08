@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types\Inline\QueryResult;
+namespace Auramel\TelegramBotApi\Types\Inline\QueryResult;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Inline\InlineKeyboardMarkup;
-use TelegramBot\Api\Types\Inline\InputMessageContent;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Inline\InlineKeyboardMarkup;
+use Auramel\TelegramBotApi\Types\Inline\InputMessageContent;
 
 /**
  * Class AbstractInlineQueryResult
  * Abstract class for representing one result of an inline query
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class AbstractInlineQueryResult extends BaseType
 {

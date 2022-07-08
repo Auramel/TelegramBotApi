@@ -1,12 +1,12 @@
 <?php
 
-namespace TelegramBot\Api\Types\InputMedia;
+namespace Auramel\TelegramBotApi\Types\InputMedia;
 
 /**
  * Class InputMediaVideo
  * Represents a video to be sent.
  *
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 class InputMediaVideo extends InputMedia
 {

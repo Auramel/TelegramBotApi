@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments\Query;
+namespace Auramel\TelegramBotApi\Types\Payments\Query;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Payments\ArrayOfLabeledPrice;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Payments\ArrayOfLabeledPrice;
 
 /**
  * Class AnswerShippingQuery
  * If you sent an invoice requesting a shipping address and the parameter is_flexible was specified,
  * the Bot API will send an Update with a shipping_query field to the bot
  *
- * @package TelegramBot\Api\Types\Payments\Query
+ * @package Auramel\TelegramBotApi\Types\Payments\Query
  */
 class AnswerShippingQuery extends BaseType
 {

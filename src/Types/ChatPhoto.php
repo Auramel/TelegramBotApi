@@ -1,8 +1,8 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 class ChatPhoto extends BaseType
 {

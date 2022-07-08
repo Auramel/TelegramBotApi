@@ -6,9 +6,9 @@
  * Time: 04:05
  */
 
-namespace TelegramBot\Api\Types\Inline;
+namespace Auramel\TelegramBotApi\Types\Inline;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 class InputMessageContent extends BaseType
 {

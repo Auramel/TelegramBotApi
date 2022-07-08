@@ -1,15 +1,15 @@
 <?php
 
-namespace TelegramBot\Api\Types\InputMedia;
+namespace Auramel\TelegramBotApi\Types\InputMedia;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Collection\CollectionItemInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Collection\CollectionItemInterface;
 
 /**
  * Class InputMedia
  * This object represents the content of a media message to be sent.
  *
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 class InputMedia extends BaseType implements CollectionItemInterface
 {

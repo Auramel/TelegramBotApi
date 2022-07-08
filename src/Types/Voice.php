@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\InvalidArgumentException;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\InvalidArgumentException;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Class Voice
  * This object represents a voice note.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class Voice extends BaseType implements TypeInterface
 {

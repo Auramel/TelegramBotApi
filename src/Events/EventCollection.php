@@ -1,11 +1,11 @@
 <?php
 
-namespace TelegramBot\Api\Events;
+namespace Auramel\TelegramBotApi\Events;
 
 use Closure;
 use ReflectionFunction;
-use TelegramBot\Api\Botan;
-use TelegramBot\Api\Types\Update;
+use Auramel\TelegramBotApi\Botan;
+use Auramel\TelegramBotApi\Types\Update;
 
 class EventCollection
 {
@@ -19,7 +19,7 @@ class EventCollection
     /**
      * Botan tracker
      *
-     * @var \TelegramBot\Api\Botan
+     * @var \Auramel\TelegramBotApi\Botan
      */
     protected $tracker;
 
@@ -42,7 +42,7 @@ class EventCollection
      * @param Closure $event
      * @param Closure|null $checker
      *
-     * @return \TelegramBot\Api\Events\EventCollection
+     * @return \Auramel\TelegramBotApi\Events\EventCollection
      */
     public function add(Closure $event, $checker = null)
     {
@@ -54,12 +54,12 @@ class EventCollection
     }
 
     /**
-     * @param \TelegramBot\Api\Types\Update
+     * @param \Auramel\TelegramBotApi\Types\Update
      */
     public function handle(Update $update)
     {
         foreach ($this->events as $event) {
-            /* @var \TelegramBot\Api\Events\Event $event */
+            /* @var \Auramel\TelegramBotApi\Events\Event $event */
             if ($event->executeChecker($update) === true) {
                 if (false === $event->executeAction($update)) {
                     if (!is_null($this->tracker)) {

@@ -1,14 +1,14 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments;
+namespace Auramel\TelegramBotApi\Types\Payments;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class LabeledPrice
  * This object represents a portion of the price for goods or services.
  *
- * @package TelegramBot\Api\Types\Payments
+ * @package Auramel\TelegramBotApi\Types\Payments
  */
 class LabeledPrice extends BaseType
 {

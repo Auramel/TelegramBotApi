@@ -1,18 +1,18 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments\Query;
+namespace Auramel\TelegramBotApi\Types\Payments\Query;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Payments\ArrayOfLabeledPrice;
-use TelegramBot\Api\Types\Payments\OrderInfo;
-use TelegramBot\Api\Types\Payments\ShippingAddress;
-use TelegramBot\Api\Types\User;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Payments\ArrayOfLabeledPrice;
+use Auramel\TelegramBotApi\Types\Payments\OrderInfo;
+use Auramel\TelegramBotApi\Types\Payments\ShippingAddress;
+use Auramel\TelegramBotApi\Types\User;
 
 /**
  * Class PreCheckoutQuery
  * This object contains information about an incoming pre-checkout query.
  *
- * @package TelegramBot\Api\Types\Payments\Query
+ * @package Auramel\TelegramBotApi\Types\Payments\Query
  */
 class PreCheckoutQuery extends BaseType
 {

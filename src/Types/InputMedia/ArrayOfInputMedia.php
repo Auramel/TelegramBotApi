@@ -1,13 +1,13 @@
 <?php
 
-namespace TelegramBot\Api\Types\InputMedia;
+namespace Auramel\TelegramBotApi\Types\InputMedia;
 
-use TelegramBot\Api\Collection\Collection;
+use Auramel\TelegramBotApi\Collection\Collection;
 
 /**
  * Class ArrayOfInputMedia
  *
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 class ArrayOfInputMedia extends Collection
 {

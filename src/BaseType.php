@@ -1,12 +1,12 @@
 <?php
 
-namespace TelegramBot\Api;
+namespace Auramel\TelegramBotApi;
 
 /**
  * Class BaseType
  * Base class for Telegram Types
  *
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 abstract class BaseType
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments;
+namespace Auramel\TelegramBotApi\Types\Payments;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class OrderInfo
  * This object represents information about an order.
  *
- * @package TelegramBot\Api\Types\Payments
+ * @package Auramel\TelegramBotApi\Types\Payments
  */
 class OrderInfo extends BaseType
 {

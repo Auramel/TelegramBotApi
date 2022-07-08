@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\InvalidArgumentException;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\InvalidArgumentException;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Class Sticker
  * This object represents a sticker.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class Sticker extends BaseType implements TypeInterface
 {

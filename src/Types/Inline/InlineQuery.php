@@ -1,17 +1,17 @@
 <?php
 
-namespace TelegramBot\Api\Types\Inline;
+namespace Auramel\TelegramBotApi\Types\Inline;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Location;
-use TelegramBot\Api\Types\User;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Location;
+use Auramel\TelegramBotApi\Types\User;
 
 /**
  * Class InlineQuery
  * This object represents an incoming inline query.
  * When the user sends an empty query, your bot could return some default or trending results.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class InlineQuery extends BaseType
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class ReplyKeyboardMarkup
  * This object represents a custom keyboard with reply options (see Introduction to bots for details and examples).
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class ReplyKeyboardMarkup extends BaseType
 {

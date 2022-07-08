@@ -1,6 +1,6 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments;
+namespace Auramel\TelegramBotApi\Types\Payments;
 
 abstract class ArrayOfLabeledPrice
 {

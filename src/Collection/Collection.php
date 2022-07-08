@@ -1,8 +1,8 @@
 <?php
 
-namespace TelegramBot\Api\Collection;
+namespace Auramel\TelegramBotApi\Collection;
 
-use TelegramBot\Api\Types\InputMedia\InputMedia;
+use Auramel\TelegramBotApi\Types\InputMedia\InputMedia;
 
 /**
  * Class Collection

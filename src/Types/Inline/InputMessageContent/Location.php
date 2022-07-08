@@ -6,17 +6,17 @@
  * Time: 15:41
  */
 
-namespace TelegramBot\Api\Types\Inline\InputMessageContent;
+namespace Auramel\TelegramBotApi\Types\Inline\InputMessageContent;
 
-use TelegramBot\Api\TypeInterface;
-use TelegramBot\Api\Types\Inline\InputMessageContent;
+use Auramel\TelegramBotApi\TypeInterface;
+use Auramel\TelegramBotApi\Types\Inline\InputMessageContent;
 
 /**
  * Class Location
  * @see https://core.telegram.org/bots/api#inputlocationmessagecontent
  * Represents the content of a location message to be sent as the result of an inline query.
  *
- * @package TelegramBot\Api\Types\Inline
+ * @package Auramel\TelegramBotApi\Types\Inline
  */
 class Location extends InputMessageContent implements TypeInterface
 {

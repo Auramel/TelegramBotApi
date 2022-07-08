@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\InvalidArgumentException;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\InvalidArgumentException;
+use Auramel\TelegramBotApi\TypeInterface;
 
 /**
  * Class UserProfilePhotos
  * This object represent a user's profile pictures.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class UserProfilePhotos extends BaseType implements TypeInterface
 {
@@ -40,7 +40,7 @@ class UserProfilePhotos extends BaseType implements TypeInterface
 
     /**
      * Requested profile pictures (in up to 4 sizes each).
-     * Array of Array of \TelegramBot\Api\Types\PhotoSize
+     * Array of Array of \Auramel\TelegramBotApi\Types\PhotoSize
      *
      * @var array
      */

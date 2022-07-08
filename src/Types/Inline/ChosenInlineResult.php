@@ -1,16 +1,16 @@
 <?php
 
-namespace TelegramBot\Api\Types\Inline;
+namespace Auramel\TelegramBotApi\Types\Inline;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Location;
-use TelegramBot\Api\Types\User;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Location;
+use Auramel\TelegramBotApi\Types\User;
 
 /**
  * Class ChosenInlineResult
  * This object represents a result of an inline query that was chosen by the user and sent to their chat partner.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class ChosenInlineResult extends BaseType
 {

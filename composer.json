@@ -1,34 +1,11 @@
 {
     "name": "auramel/telegram-bot-api",
     "description": "PHP Wrapper for Telegram Bot API",
-    "keywords": [
-        "php",
-        "telegram",
-        "bot",
-        "bot api"
-    ],
     "homepage": "https://github.com/Auramel/TelegramBotApi",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Ilya Gusev",
-            "email": "mail@igusev.ru",
-            "homepage": "https://php-cat.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php" : ">=5.5.0",
-        "ext-curl": "*"
-    },
     "autoload": {
         "psr-4": {
-            "TelegramBot\\Api\\": "src"
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
+            "Auramel\\TelegramBotApi\\": "src"
         }
     }
 }

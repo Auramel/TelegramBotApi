@@ -6,10 +6,10 @@
  * Time: 04:10
  */
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\TypeInterface;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\TypeInterface;
 
 class MessageEntity extends BaseType implements TypeInterface
 {

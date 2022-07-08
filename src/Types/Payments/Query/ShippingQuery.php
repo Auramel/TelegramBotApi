@@ -1,17 +1,17 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments\Query;
+namespace Auramel\TelegramBotApi\Types\Payments\Query;
 
-use TelegramBot\Api\BaseType;
-use TelegramBot\Api\Types\Payments\ArrayOfLabeledPrice;
-use TelegramBot\Api\Types\Payments\ShippingAddress;
-use TelegramBot\Api\Types\User;
+use Auramel\TelegramBotApi\BaseType;
+use Auramel\TelegramBotApi\Types\Payments\ArrayOfLabeledPrice;
+use Auramel\TelegramBotApi\Types\Payments\ShippingAddress;
+use Auramel\TelegramBotApi\Types\User;
 
 /**
  * Class ShippingQuery
  * This object contains information about an incoming shipping query.
  *
- * @package TelegramBot\Api\Types\Payments\Query
+ * @package Auramel\TelegramBotApi\Types\Payments\Query
  */
 class ShippingQuery extends BaseType
 {

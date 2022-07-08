@@ -1,14 +1,14 @@
 <?php
 
-namespace TelegramBot\Api\Types\Payments;
+namespace Auramel\TelegramBotApi\Types\Payments;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class SuccessfulPayment
  * This object contains basic information about a successful payment.
  *
- * @package TelegramBot\Api\Types\Payments
+ * @package Auramel\TelegramBotApi\Types\Payments
  */
 class SuccessfulPayment extends BaseType
 {

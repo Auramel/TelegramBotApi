@@ -1,14 +1,14 @@
 <?php
 
-namespace TelegramBot\Api\Collection;
+namespace Auramel\TelegramBotApi\Collection;
 
-use TelegramBot\Api\Exception;
+use Auramel\TelegramBotApi\Exception;
 
 /**
  * Class KeyHasUseException
  *
  * @codeCoverageIgnore
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 class KeyHasUseException extends Exception
 {

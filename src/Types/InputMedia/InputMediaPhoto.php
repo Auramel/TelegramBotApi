@@ -1,12 +1,12 @@
 <?php
 
-namespace TelegramBot\Api\Types\InputMedia;
+namespace Auramel\TelegramBotApi\Types\InputMedia;
 
 /**
  * Class InputMediaPhoto
  * Represents a photo to be sent.
  *
- * @package TelegramBot\Api
+ * @package Auramel\TelegramBotApi
  */
 class InputMediaPhoto extends InputMedia
 {

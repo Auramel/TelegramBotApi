@@ -1,8 +1,8 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class PollAnswer
@@ -12,7 +12,7 @@ use TelegramBot\Api\BaseType;
  * This object represents an answer of a user in a non-anonymous poll.
  *
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class PollAnswer extends BaseType
 {
@@ -35,7 +35,7 @@ class PollAnswer extends BaseType
     ];
 
     /**
-     * @var \TelegramBot\Api\Types\User
+     * @var \Auramel\TelegramBotApi\Types\User
      */
     protected $user;
 

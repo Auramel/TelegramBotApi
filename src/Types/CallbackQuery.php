@@ -1,8 +1,8 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class CallbackQuery
@@ -14,7 +14,7 @@ use TelegramBot\Api\BaseType;
  * the field inline_message_id will be present.
  * Exactly one of the fields data or game_short_name will be present.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class CallbackQuery extends BaseType
 {
@@ -50,7 +50,7 @@ class CallbackQuery extends BaseType
     /**
      * Sender
      *
-     * @var \TelegramBot\Api\Types\User
+     * @var \Auramel\TelegramBotApi\Types\User
      */
     protected $from;
 
@@ -59,7 +59,7 @@ class CallbackQuery extends BaseType
      * Note that message content and message date will not be available
      * if the message is too old
      *
-     * @var \TelegramBot\Api\Types\Message
+     * @var \Auramel\TelegramBotApi\Types\Message
      */
     protected $message;
 

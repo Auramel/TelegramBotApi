@@ -1,15 +1,15 @@
 <?php
 
-namespace TelegramBot\Api\Types;
+namespace Auramel\TelegramBotApi\Types;
 
-use TelegramBot\Api\BaseType;
+use Auramel\TelegramBotApi\BaseType;
 
 /**
  * Class ReplyKeyboardRemove
  * Upon receiving a message with this object,
  * Telegram clients will remove the current custom keyboard and display the default letter-keyboard.
  *
- * @package TelegramBot\Api\Types
+ * @package Auramel\TelegramBotApi\Types
  */
 class ReplyKeyboardRemove extends BaseType
 {
