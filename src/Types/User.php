@@ -79,9 +79,9 @@ class User extends BaseType implements TypeInterface
     protected $isBot;
 
     /**
-     * True, if this user is a bot
+     * True, if this user is a premium
      */
-    protected bool $isPremium;
+    protected ?bool $isPremium = null;
 
     /**
      * @return string
@@ -185,7 +185,7 @@ class User extends BaseType implements TypeInterface
         $this->isBot = $isBot;
     }
 
-    public function isPremium(): bool
+    public function isPremium(): ?bool
     {
         return $this->isPremium;
     }
