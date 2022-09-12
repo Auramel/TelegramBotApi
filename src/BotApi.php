@@ -168,16 +168,23 @@ class BotApi
      */
     protected $returnArray = true;
 
+    protected int $timeout;
+
     /**
      * Constructor
      *
      * @param string $token Telegram Bot API token
      * @param string|null $trackerToken Yandex AppMetrica application api_key
      */
-    public function __construct($token, $trackerToken = null)
+    public function __construct(
+        string $token,
+        ?string $trackerToken = null,
+        int $timeout = 10,
+    )
     {
         $this->curl = curl_init();
         $this->token = $token;
+        $this->timeout = $timeout;
 
         if ($trackerToken) {
             $this->tracker = new Botan($trackerToken);
@@ -210,14 +217,18 @@ class BotApi
      * @throws \Auramel\TelegramBotApi\HttpException
      * @throws \Auramel\TelegramBotApi\InvalidJsonException
      */
-    public function call($method, array $data = null, $timeout = 10)
+    public function call(
+        string $method,
+        array $data = null,
+        ?int $timeout = null
+    )
     {
         $options = $this->proxySettings + [
             CURLOPT_URL => $this->getUrl().'/'.$method,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_POST => null,
             CURLOPT_POSTFIELDS => null,
-            CURLOPT_TIMEOUT => $timeout,
+            CURLOPT_TIMEOUT => $timeout ?? $this->timeout,
         ];
 
         if ($data) {
@@ -542,12 +553,12 @@ class BotApi
      * @throws \Auramel\TelegramBotApi\Exception
      * @throws \Auramel\TelegramBotApi\InvalidArgumentException
      */
-    public function getUpdates($offset = 0, $limit = 100, $timeout = 0)
+    public function getUpdates($offset = 0, $limit = 100, ?int $timeout = null)
     {
         $updates = ArrayOfUpdates::fromResponse($this->call('getUpdates', [
             'offset' => $offset,
             'limit' => $limit,
-            'timeout' => $timeout,
+            'timeout' => $timeout ?? $this->timeout,
         ]));
 
         if ($this->tracker instanceof Botan) {
