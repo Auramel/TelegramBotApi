@@ -1626,6 +1626,95 @@ class BotApi
         ]);
     }
 
+    public function createChatInviteLink(
+        int|string $chatId,
+        ?string $name,
+        ?int $expireDate,
+        ?int $memberLimit,
+        ?bool $createsJoinRequest
+    )
+    {
+        return $this->call('createChatInviteLink', [
+            'chat_id' => $chatId,
+            'name' => $name,
+            'expire_date' => $expireDate,
+            'member_limit' => $memberLimit,
+            'creates_join_request' => $createsJoinRequest,
+        ]);
+    }
+
+    /**
+     * @throws InvalidJsonException
+     * @throws Exception
+     * @throws HttpException
+     */
+    public function editChatInviteLink(
+        int|string $chatId,
+        string $inviteLink,
+        ?string $name,
+        ?int $expireDate,
+        ?int $memberLimit,
+        ?bool $createsJoinRequest
+    )
+    {
+        return $this->call('editChatInviteLink', [
+            'chat_id' => $chatId,
+            'invite_link' => $inviteLink,
+            'name' => $name,
+            'expire_date' => $expireDate,
+            'member_limit' => $memberLimit,
+            'creates_join_request' => $createsJoinRequest,
+        ]);
+    }
+
+    /**
+     * @throws InvalidJsonException
+     * @throws Exception
+     * @throws HttpException
+     */
+    public function revokeChatInviteLink(
+        int|string $chatId,
+        string $inviteLink
+    )
+    {
+        return $this->call('revokeChatInviteLink', [
+            'chat_id' => $chatId,
+            'invite_link' => $inviteLink,
+        ]);
+    }
+
+    /**
+     * @throws InvalidJsonException
+     * @throws Exception
+     * @throws HttpException
+     */
+    public function approveChatJoinRequest(
+        int|string $chatId,
+        int $userId
+    )
+    {
+        return $this->call('approveChatJoinRequest', [
+            'chat_id' => $chatId,
+            'user_id' => $userId,
+        ]);
+    }
+
+    /**
+     * @throws InvalidJsonException
+     * @throws Exception
+     * @throws HttpException
+     */
+    public function declineChatJoinRequest(
+        int|string $chatId,
+        int $userId
+    )
+    {
+        return $this->call('declineChatJoinRequest', [
+            'chat_id' => $chatId,
+            'user_id' => $userId,
+        ]);
+    }
+
     /**
      * Use this method to set a new profile photo for the chat. Photos can't be changed for private chats.
      * The bot must be an administrator in the chat for this to work and must have the appropriate admin rights.
