@@ -1195,6 +1195,11 @@ class BotApi
         return ArrayOfBotCommand::fromResponse($this->call('getMyCommands'));
     }
 
+    public function deleteMyCommands()
+    {
+        return ArrayOfBotCommand::fromResponse($this->call('deleteMyCommands'));
+    }
+
     /**
      * Use this method to edit text messages sent by the bot or via the bot
      *
