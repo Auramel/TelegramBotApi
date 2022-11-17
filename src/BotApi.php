@@ -1192,12 +1192,12 @@ class BotApi
      */
     public function getMyCommands()
     {
-        return $this->call('getMyCommands');
+        return ArrayOfBotCommand::fromResponse($this->call('getMyCommands'));
     }
 
     public function deleteMyCommands()
     {
-        return ArrayOfBotCommand::fromResponse($this->call('deleteMyCommands'));
+        return $this->call('deleteMyCommands');
     }
 
     /**
