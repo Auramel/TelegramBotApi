@@ -492,9 +492,17 @@ class BotApi
      *
      * @throws \Auramel\TelegramBotApi\Exception
      */
-    public function setWebhook($url = '', $certificate = null)
+    public function setWebhook(
+        $url = '',
+        $certificate = null,
+        int $maxConnections = 40,
+    )
     {
-        return $this->call('setWebhook', ['url' => $url, 'certificate' => $certificate]);
+        return $this->call('setWebhook', [
+            'url' => $url,
+            'certificate' => $certificate,
+            'max_connections' => $maxConnections,
+        ]);
     }
 
 
